@@ -47,13 +47,21 @@ body {
 
 }
 .nav-links{
-    background-color: white;
+    background-color: #734320;
     color: black;
     font-weight: bold;
     font-size: large;
     display: flex;
     align-items: center;
+    border-radius: 5px;
+    text-decoration: none;
     
+}
+
+.nav-links:hover{
+    background-color: gray;
+    color: white;
+
 }
 
 /* Main content */
@@ -153,6 +161,9 @@ body {
     font-weight: bold;
 } 
 
+#ch {
+    display: none;
+}
 #ch:checked ~ .blog-entry-full {
     display: block;
     overflow:scroll;
@@ -166,9 +177,78 @@ body {
 #ch:checked ~ .entry-heading-format {
     display: none;
 }
-#ch {
+
+#ch1 {
     display: none;
 }
+#ch1:checked ~ .blog-entry-full {
+    display: block;
+    overflow:scroll;
+}
+#ch1:checked ~ label {
+    display: none;
+}
+#ch1:checked ~ .img-entry {
+    display: none;
+}
+#ch1:checked ~ .entry-heading-format {
+    display: none;
+}
+
+#ch2 {
+    display: none;
+}
+#ch2:checked ~ .blog-entry-full {
+    display: block;
+    overflow:scroll;
+}
+#ch2:checked ~ label {
+    display: none;
+}
+#ch2:checked ~ .img-entry {
+    display: none;
+}
+#ch2:checked ~ .entry-heading-format {
+    display: none;
+}
+
+#ch3 {
+    display: none;
+}
+#ch3:checked ~ .blog-entry-full {
+    display: block;
+    overflow:scroll;
+
+}
+#ch3:checked ~ label {
+    display: none;
+}
+#ch3:checked ~ .img-entry {
+    display: none;
+}
+#ch3:checked ~ .entry-heading-format {
+    display: none;
+}
+
+#ch4 {
+    display: none;
+}
+#ch4:checked ~ .blog-entry-full {
+    display: block;
+    overflow:scroll;
+}
+#ch4:checked ~ label {
+    display: none;
+}
+#ch4:checked ~ .img-entry {
+    display: none;
+}
+#ch4:checked ~ .entry-heading-format {
+    display: none;
+}
+
+
+
 label{
     display: inline-block;
     cursor: pointer;
