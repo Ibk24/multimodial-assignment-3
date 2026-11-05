@@ -282,7 +282,7 @@ label{
     justify-content: center;
     border: solid black 2px;
     height: 45px;
-    margin-top: auto;
+    margin-top: 0px;
     flex-shrink: 0;
     
 }
